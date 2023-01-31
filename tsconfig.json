@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "strict": true,
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "app/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": ["node_modules/jest-expect-message/types/index.d.ts"]
+}
